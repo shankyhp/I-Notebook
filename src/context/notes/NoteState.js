@@ -23,7 +23,7 @@ const NoteState = (props) => {
 
     // Add a Note
     const addNote = async (title, description, tag) => {
-        // TODO: API Call
+        // TODO : API Call
         // API Call 
         const response = await fetch(`${host}/api/notes/addnote`, {
             method: 'POST',

@@ -5,7 +5,8 @@ const About = () => {
 
     return (
         <div>
-            This is About
+
+            <h1>This is Note Saver App Where You Can Create Notes And Save It .And Also You Can Edit It or delete it</h1>
         </div>
     )
 }
