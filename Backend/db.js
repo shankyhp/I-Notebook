@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const mongoURI = "mongodb://localhost:27017/i-notebook"; // /i-notebook is added and it creates new table in database
+const mongoURI = "mongodb://127.0.0.1:27017/i-notebook"; // /i-notebook is added and it creates new table in database
 
 const connectToMongo = async () => {
     try {
